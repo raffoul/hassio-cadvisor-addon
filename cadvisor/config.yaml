@@ -9,6 +9,8 @@ watchdog: http://[HOST]:[PORT:8080]/healthz
 init: false
 docker_api: true
 full_access: true
+map:
+  - cgroup:ro
 arch:
   - aarch64
   - amd64
