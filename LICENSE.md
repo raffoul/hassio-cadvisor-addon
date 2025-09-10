@@ -1,6 +1,7 @@
 # MIT License
 
 Copyright (c) 2017-2023 Christian VDZ
+Copyright (c) 2025 raffoul
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +20,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This add-on bundles or uses the official cAdvisor binary/image from Google (https://github.com/google/cadvisor), which is licensed under the Apache License, Version 2.0. See the cAdvisor repository for full license details.
+
+You must comply with the terms of the Apache 2.0 license for any redistribution or use of cAdvisor.

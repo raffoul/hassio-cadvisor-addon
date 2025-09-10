@@ -12,7 +12,7 @@ comparison to installing any other Home Assistant add-on.
 1. Go to the "Settings > Add-ons" panel in Home Assistant.
 2. Click on the "Add-on store" at the bottom of the page.
 3. Click on the three dots on the top and select "Repository".
-4. Add this repository: https://github.com/christian-vdz/hassio-cadvisor-addon
+4. Add this repository: https://github.com/raffoul/hassio-cadvisor-addon
 5. Search for the "cAdvisor" add-on in the Supervisor add-on store an
    install it.
 6. Start the "cAdvisor" add-on.
@@ -78,10 +78,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_uptime-kuma&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/christian-vdz/hassio-cadvisor-addon/graphs/contributors
-[christian-vdz]: https://github.com/christian-vdz
-[issue]: https://github.com/christian-vdz/hassio-cadvisor-addon/issues
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_cadvisor&repository_url=https%3A%2F%2Fgithub.com%2Fraffoul%2Fhassio-cadvisor-addon
+[contributors]: https://github.com/raffoul/hassio-cadvisor-addon/graphs/contributors
+[raffoul]: https://github.com/raffoul
+[issue]: https://github.com/raffoul/hassio-cadvisor-addon/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/christian-vdz/hassio-cadvisor-addon/releases
+[releases]: https://github.com/raffoul/hassio-cadvisor-addon/releases
 [semver]: https://semver.org/spec/v2.0.0.html

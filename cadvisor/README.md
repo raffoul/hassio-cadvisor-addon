@@ -2,6 +2,10 @@
 
 cAdvisor add-on for Home-Assistant
 
+**Current versions used:**
+- cAdvisor: `v0.53.0` ([ghcr.io/google/cadvisor](https://github.com/google/cadvisor/pkgs/container/cadvisor))
+- Home Assistant add-on base image: `ghcr.io/hassio-addons/base:18.1.1`
+
 [![Release][releases-shield]][releases]
 ![Project Maintenance][maintenance-shield]
 
@@ -15,6 +19,12 @@ cAdvisor add-on for Home-Assistant
 
 cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers. It is a running daemon that collects, aggregates, processes, and exports information about running containers. Specifically, for each container it keeps resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network statistics. This data is exported by container and machine-wide.
 
+## Automated Dependency Updates
+
+This repository uses Dependabot and Renovate to automatically open pull requests for new versions of cAdvisor and the Home Assistant base image, including updates in both Dockerfile and build.yaml.
+
+See `.github/dependabot.yml` and `.github/renovate.json` for configuration details.
+
 [:books: Read the full add-on documentation](https://github.com/google/cadvisor)
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -22,6 +32,6 @@ cAdvisor (Container Advisor) provides container users an understanding of the re
 [armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[releases-shield]: https://img.shields.io/github/release/christian-vdz/hassio-cadvisor-addon.svg
-[releases]: https://github.com/christian-vdz/hassio-cadvisor-addon/releases
+[releases-shield]: https://img.shields.io/github/release/raffoul/hassio-cadvisor-addon.svg
+[releases]: https://github.com/raffoul/hassio-cadvisor-addon/releases
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
