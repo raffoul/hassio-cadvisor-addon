@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.0](https://github.com/raffoul/hassio-cadvisor-addon/compare/v0.1.2...v2.0.0) (2025-09-10)
+
+### Features
+
+- Update cAdvisor to v0.53.0 and base image to ghcr.io/hassio-addons/base:18.1.1
+- Add automated dependency updates with Dependabot and Renovate
+
+### Documentation
+
+- Update README and DOCS with current versions, links, and license information
+
+### Miscellaneous
+
+- License and copyright adjustments
+
 ## [0.1.2](https://github.com/christian-vdz/hassio-cadvisor-addon/compare/v0.1.1...v0.1.2) (2023-11-08)
 
 ### Features
