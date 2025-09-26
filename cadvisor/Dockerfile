@@ -1,5 +1,5 @@
 FROM ghcr.io/google/cadvisor:v0.53.0 AS cadvisor
-FROM ghcr.io/hassio-addons/base:18.1.1
+FROM ghcr.io/hassio-addons/base:18.1.2
 
 RUN apk --no-cache add libc6-compat device-mapper findutils ndctl zfs && \
     apk --no-cache add thin-provisioning-tools --repository http://dl-3.alpinelinux.org/alpine/edge/main/ && \
