@@ -3,6 +3,7 @@
 cAdvisor add-on for Home-Assistant
 
 **Current versions used:**
+
 - cAdvisor: `v0.53.0` ([ghcr.io/google/cadvisor](https://github.com/google/cadvisor/pkgs/container/cadvisor))
 - Home Assistant add-on base image: `ghcr.io/hassio-addons/base:18.1.1`
 
